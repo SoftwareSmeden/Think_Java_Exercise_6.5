@@ -32,7 +32,7 @@ public class Main {
         // String converted to lowercase.
         String lowerCaseText = text.toLowerCase();
 
-        // This "for" loop starts at index "1" and then the inner loop checks if there is any matching letters to index "1".
+        // This "for" loop starts at index "1" and then the inner loop checks if there is any matching letters to index "1" (also called a nested loop).
         for (int i = 1; i < lowerCaseText.length(); i++) {
 
             // Using this variable to count letters and determine if it's false.
